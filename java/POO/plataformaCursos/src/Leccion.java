@@ -24,6 +24,9 @@ public class Leccion {
     public void setTitulo(String nuevoTitulo){
         this.titulo = titulo;
     }
+    public List<Video> getVideos(){
+        return videos;
+    }
 
     @Override
     public String toString(){

@@ -25,7 +25,7 @@ public class Curso {
     }
 
     // Relación de asociación con Profesor (Un curso tiene un profesor)
-    public void asignarProfesro(Profesor profesor){
+    public void asignarProfesor(Profesor profesor){
         this.profesor = profesor;
     }
 

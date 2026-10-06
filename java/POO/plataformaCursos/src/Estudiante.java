@@ -25,7 +25,7 @@ public class Estudiante {
     public String getNombre(){
         return nombre;
     }
-    public List<Registro> getRegistro(){
+    public List<Registro> getRegistros(){
         return registros;
     }
 
