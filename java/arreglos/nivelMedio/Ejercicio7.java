@@ -1,4 +1,4 @@
-package arreglos;
+package arreglos.nivelMedio;
 
 public class Ejercicio7 {
 

@@ -1,4 +1,4 @@
-package arreglos;
+package arreglos.nivelMedio;
 
 import java.util.Scanner;
 
