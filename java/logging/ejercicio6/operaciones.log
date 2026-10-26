@@ -1,0 +1,8 @@
+oct 26, 2026 2:00:53 A. M. Main main
+INFO: --- Inicio de procesamiento de pedidos ---
+oct 26, 2026 2:00:53 A. M. Main main
+SEVERE: Fallo al procesar pedido por falta de stock: No hay suficiente stock para Mouse Gamer
+oct 26, 2026 2:00:53 A. M. Main main
+SEVERE: Fallo al procesar pedido por cantidad invalida: Cantidad no valida
+oct 26, 2026 2:00:53 A. M. Main main
+INFO: --- Fin de procesamiento de pedidos ---
