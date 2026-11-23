@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+  --color-fondo: #fdf8f2;       /* Crema suave tipo harina/masa */
+  --color-primario: #fdcfb0;    /* Marrón oscuro del logo */
+  --color-acento: #d99b26;      /* Dorado de la espiga */
+  --color-blanco: #ffffff;
+  --color-texto: #2e1d12;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.5;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primario);
+    padding: 10px 80px;
+    align-items: center;
+    gap:5px;
+}
+
+.logo {
+    display: flex;
+    font-family: "Lavishly Yours", cursive;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.imagen-logo {
+    width: 80px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 400px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;   
+    color: var(--color-texto);
+    font-weight: bold;
+}
+
+.descripcion {
+    text-align: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 40px 80px;
+}
+
+.producto {
+    padding: 20px;
+    border: 1.5px solid var(--color-acento);
+    border-radius: 12px;
+    background-color: #f5eee6;
+}
+
+.producto img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.producto button {
+    border: none;
+    display: block;
+    cursor: pointer;
+    margin: 15px auto 0px;
+    padding: 5px;
+    background-color: #fdcfb0;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+footer {
+
+    background-color: var(--color-primario);
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
